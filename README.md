@@ -18,11 +18,11 @@ This is a Flutter app that performs full **CRUD (Create, Read, Update, Delete)**
 
 # Architecture & State Management
 - lib/
-- api_service.dart       # Handles API calls (GET, POST, PUT, DELETE)
-- item_model.dart        # Data model for an Item
-- item_view_model.dart   # Business logic and state
-- home_screen.dart       # Shows list of items with search, edit, delete
-- add_edit_screen.dart   # Form screen for creating/updating items
+- api_service.dart:       Handles API calls (GET, POST, PUT, DELETE)
+- item_model.dart:        Data model for an Item
+- item_view_model.dart:   Business logic and state
+- home_screen.dart:       Shows list of items with search, edit, delete
+- add_edit_screen.dart:   Form screen for creating/updating items
 - main.dart
 
 # State Management:
